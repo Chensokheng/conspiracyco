@@ -1,0 +1,538 @@
+/* ---- TYPOGRAPHY AND GENERAL LAYOUT ----- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    position: relative;
+min-height: 100%;
+max-width: 100%;
+overflow-x: hidden;
+}
+
+h1, h2 {
+    font-family: 'Josef Slab', 'Georgia', 'Times New Roman',  serif;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 5em;
+}
+
+.h1pad {
+    padding-top: 5rem;
+}
+
+.h1pad_home {
+    padding-top: 4rem;
+}
+
+h2 {
+    font-size: 3em;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+p {
+ font-family: 'Source Sans Pro', 'Bookman', 'Helvetica', sans-serif;
+ font-size: 2em;
+}
+
+small {
+    font-family: 'Josef Slab', 'Georgia', 'Times New Roman',  serif;
+    font-size: 1em;
+   }
+
+a {
+    color: #5cdb95;
+}
+
+a:hover {
+    color: #379683;
+}
+
+/*------ NAV --------- */
+
+nav {
+    background-color:#000000;
+    padding: 1.75em;
+    width: 100vw;
+    height: 12vh;
+}
+
+.nav a {
+    font-family: 'Source Sans Pro', 'Bookman', 'Helvetica', sans-serif;
+    text-align: center;
+    padding: 1.75em 1em;
+    text-decoration: none;
+    font-size: 1.3em;
+    color: #f9f9f9;
+  }
+
+.nav a:hover {
+    color: #5cdb95;
+  }
+
+.nav_items {
+    float: right;
+}
+
+.downnav {
+    color: #5cdb95;
+  }
+
+.downnav:hover {
+    text-decoration: underline;
+  }
+
+.eye_logo {
+    float: left;
+    height: 4rem;
+    width: auto;
+    padding: 1rem 0em 0em 2rem;
+}
+
+
+/*------ HOMEPAGE --------- */
+
+.blacklandingpage {
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    color: #f9f9f9;
+}
+
+#herologo {
+    height: 70%;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2rem;
+}
+
+.homecontent {
+    margin-left: 10rem;
+    margin-right: 10rem;
+    text-align: center;
+}
+
+#intro {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#intro2 {
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-top: 2rem;
+    margin-bottom: 6rem;
+}
+
+/*------ HOMEPAGE FLEX CONTAINER --------- */
+
+.grid-container-home {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem;
+  }
+
+  .grid-item-h {
+      margin-top: 3rem;
+      width: 90%;
+      height: 20em;
+  }
+
+
+.flex-container {
+    padding: 1em;
+    margin: 0;
+    list-style: none;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row;
+    justify-content: space-around;
+    line-height:30px;
+}
+
+.flex-item {
+    background: #ffffff;
+    margin: 2em;
+    text-align: center;
+    flex: 1 0 auto;
+    height:auto;
+}
+
+.flex-item:before {
+    content:'';
+    float:left;
+    padding-top:100%;
+}
+
+#iconcontain {
+        height: 105vh;
+    }
+
+.dldicon {
+    padding: 0.35em 1.2em;
+    border:0.1em solid #Ffffff;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family: 'Source Sans Pro', 'Bookman', 'Helvetica', sans-serif;
+    color: #ffffff;
+    text-align:center;
+    transition: all 0.2s;
+    display: inline-block;
+        }
+
+a.dldicon:hover {
+        color:#000000;
+        background-color:#F9f9f9;
+        }
+
+.seemorebtn {
+    margin-bottom: 2em;
+}
+
+.dldicon_black {
+            padding: 0.35em 1.2em;
+            border:0.1em solid #000000;
+            margin: 2em 0em 4em 0em;
+            border-radius:0.12em;
+            box-sizing: border-box;
+            text-decoration:none;
+            font-family: 'Source Sans Pro', 'Bookman', 'Helvetica', sans-serif;
+            color: #000000;
+            text-align:center;
+            transition: all 0.2s;
+            display: inline-block;
+                }
+        
+a.dldicon_black:hover {
+                color: #F9f9f9;
+                background-color: #000000;
+                }
+
+.featprod_home {
+                    height: 20em;
+                    width: 90%;
+                }
+
+.featprod {
+    height: 20em;
+    width: 100%;
+}
+
+.featured {
+    height: 110%;
+}
+
+@media all and (max-width:30em){
+a.dldicon {
+        display: block;
+        margin:0.4em auto;
+        }
+}
+
+/*----- FOOTER --------- */
+
+footer {
+    height: 3em;
+    width: 100vw;
+    background-color: #000000;
+    color: #F9f9f9;
+    padding: 0.7em 0em 0em 0.7em;
+    bottom: 0;
+    position: absolute;
+  left: 0;
+}
+
+.white {
+    background-color: #f9f9f9;
+    color: #000000;
+}
+
+/*------ ICONS MAIN PAGE --------- */
+
+
+.icon_page_brand {
+    height: 17rem;
+    width: auto;
+    transform: rotate(270deg);
+    float: left;
+}
+
+.horizontal-scroll-wrapper {
+    padding-top: 20rem;
+    top: 10vh;
+    position: absolute;
+    display: block;
+    margin: 0;
+    width: 90vh;
+    max-height: 110vw;
+    overflow-y: auto;
+    overflow-x: hidden;
+  transform-origin: right top;
+  transform:rotate(-90deg) translateY(-100vh);
+  background-color: #000000;
+  }
+
+.horizontal-scroll-wrapper > div {
+    width: 500px;
+    height: 500px;
+    display: block;
+    transform: rotate(90deg);
+    transform-origin: right top;
+  }
+
+.icon {
+    background-color:#Ffffff;
+    margin: 2em;
+}
+
+.iconimg {
+    max-width: 450px;
+    max-height: 450px;
+    margin: 2rem;
+}
+
+#square1 {
+    background-color: #000000;
+    width: 400px;
+    margin-right: 200px;
+}
+
+.overlay_main:hover > .overtext_main {
+    opacity: 1;
+    transition: opacity .25s ease;
+}
+
+.overlay_main {
+    position: relative;
+    width: auto;
+}
+
+.overtext_main {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(92, 219, 149, 0.9);
+    color: #Ffffff;
+    font-size: 0.6rem;
+    text-align: center;
+    opacity: 0;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    transition: opacity .25s ease;
+}
+
+/*----- PRODUCTS PAGE -------*/
+
+.container {
+    padding-left: 10rem;
+    padding-right: 10rem;
+    background-color: #000000;
+    color: #F9f9f9;
+}
+
+.shoplandingpage {
+    background-color: black;
+    height: 105vh;
+    width: 100vw;
+}
+
+.shopcontent {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    text-align: center;
+    background-color: #000000;
+    color: #F9f9f9;
+}
+
+#shoptitle {
+    padding-top: 0rem;
+    padding-bottom: 2rem;
+}
+
+#shoptitle2 {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+#shoppara {
+    margin-bottom: 2rem;
+}
+
+#shoppara2 {
+    margin-bottom: 7rem;
+}
+
+.grid-over {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 4rem;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 2rem;
+  }
+
+  .grid-item {
+      width: 90%;
+      height: 20em;
+      background-color: aqua;
+  }
+
+
+.overlay:hover > .overtext {
+    opacity: 1;
+    transition: opacity .25s ease;
+}
+
+.overlay {
+    position: relative;
+    width: auto;
+}
+
+.overtext {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(92, 219, 149, 0.8);
+    color: #Ffffff;
+    font-size: 0.6rem;
+    text-align: center;
+    opacity: 0;
+    width: 100%;
+    height: 20rem;
+    position: absolute;
+    transition: opacity .25s ease;
+}
+
+.overtext_home {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(92, 219, 149, 0.8);
+    color: #Ffffff;
+    font-size: 0.6rem;
+    text-align: center;
+    opacity: 0;
+    height: 20rem;
+    position: absolute;
+    transition: opacity .25s ease;
+    width: 90%;
+}
+
+.overlay:hover > .overtext_home {
+    opacity: 1;
+    transition: opacity .25s ease;
+}
+
+.buybtn {
+    padding: 0.35em 1.2em;
+    border:0.1rem solid #Ffffff;
+    background-color: transparent;
+    color: #Ffffff;
+    font-size: 0.8rem;
+    margin:0.5rem 0.3em 0.3em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family: 'Source Sans Pro', 'Bookman', 'Helvetica', sans-serif;
+    text-align:center;
+    transition: all 0.2s;
+    display: inline-block;
+        }
+
+.buybtn:hover {
+            color: #5cdb95;
+            background-color:#ffffff;
+            text-decoration: underline;
+            }
+
+            .overlaysquare:hover > .overtext {
+                opacity: 1;
+                transition: opacity .25s ease;
+            }
+            
+            .overlaysquare {
+                position: relative;
+                width: auto;
+            }
+            
+            .overtextsquare {
+                display: inline-flex;
+                flex-direction: column;
+                justify-content: center;
+                background-color: rgba(92, 219, 149, 0.8);
+                color: #Ffffff;
+                font-size: 0.6rem;
+                text-align: center;
+                opacity: 0;
+                background: #ffffff;
+    margin: 2em;
+    text-align: center;
+    flex: 1 0 auto;
+    height: auto;
+                position: absolute;
+                transition: opacity .25s ease;
+            
+            }
+
+/*----- CONSPIRACY PAGES ----------*/
+  
+  /* Pattern styles */
+  .container_con {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .left-half {
+    background-color: #ffffff;
+    grid-column: 1/1;
+    width: 50vw;
+    height: 100vh;
+  }
+  
+  .right-half {
+    background-color: #000000;
+    color: #F9f9f9;
+    grid-column: 2/2;
+    width: 50vw;
+    height: 100%;
+  }
+
+.conspiracy_info {
+    padding: 2rem 3rem 0rem 3rem;
+}
+
+#conspiracy_title {
+    font-size: 3rem;
+}
+
+#conspiracy_para {
+    padding-top: 1.5rem;
+    font-size: 1rem;
+}
+
+.con_img {
+    margin-top: 1rem;
+    padding: 0.7rem;
+    max-width: 48vw;
+}
