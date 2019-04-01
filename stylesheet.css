@@ -154,49 +154,49 @@ nav{
     display: inline-block;
     position: relative;
     top:100px;
-        }
+}
 /*------ HOMEPAGE FLEX CONTAINER --------- */
 
 .grid-container-home {
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
     grid-gap: 2rem;
-  }
-  .h1pad{
-      font-size: 50px;
-  }
+}
+.h1pad{
+    font-size: 50px;
+}
 a.dldicon:hover {
-        color:#000000;
-        background-color:#F9f9f9;
-        }
+    color:#000000;
+    background-color:#F9f9f9;
+}
 
 .seemorebtn {
     margin-bottom: 2em;
 }
 
 .dldicon_black {
-            padding: 0.35em 1.2em;
-            border:0.1em solid #000000;
-            margin: 2em 0em 4em 0em;
-            border-radius:0.12em;
-            box-sizing: border-box;
-            text-decoration:none;
-            font-family: 'Source Sans Pro', 'Bookman', 'Helvetica', sans-serif;
-            color: #000000;
-            text-align:center;
-            transition: all 0.2s;
-            display: inline-block;
-                }
+    padding: 0.35em 1.2em;
+    border:0.1em solid #000000;
+    margin: 2em 0em 4em 0em;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family: 'Source Sans Pro', 'Bookman', 'Helvetica', sans-serif;
+    color: #000000;
+    text-align:center;
+    transition: all 0.2s;
+    display: inline-block;
+}
         
 a.dldicon_black:hover {
-                color: #F9f9f9;
-                background-color: #000000;
-                }
+    color: #F9f9f9;
+    background-color: #000000;
+}
 
 .featprod_home {
-                    height: 20em;
-                    width: 90%;
-                }
+     height: 20em;
+    width: 90%;
+}
 .featprod {
     height: 20em;
     width: 100%;
@@ -223,12 +223,7 @@ footer {
     color: #000000;
 }
 
-
-
-
 /*------ ICONS MAIN PAGE --------- */
-
-
 .icon_page_brand {
     height: 17rem;
     width: auto;
@@ -246,9 +241,10 @@ footer {
     max-height: 110vw;
     overflow-y: auto;
     overflow-x: hidden;
-  transform-origin: right top;
-  transform:rotate(-90deg) translateY(-100vh);
-  background-color: #000000;
+
+    transform-origin: right top;
+    transform:rotate(-90deg) translateY(-100vh);
+    background-color: #000000;
   }
 
 .horizontal-scroll-wrapper > div {
@@ -317,10 +313,7 @@ footer {
 }
 
 .shopcontent {
-    padding-left: 4rem;
-    padding-right: 4rem;
-    padding-top: 5rem;
-    padding-bottom: 3rem;
+   padding:60px 10px;
     text-align: center;
     background-color: #000000;
     color: #F9f9f9;
@@ -330,19 +323,16 @@ footer {
     padding-top: 0rem;
     padding-bottom: 2rem;
 }
-
-#shoptitle2 {
-    padding-top: 1rem;
-    padding-bottom: 2rem;
+#shoptitle{
+    font-size: 45px;
 }
+
+
 
 #shoppara {
     margin-bottom: 2rem;
 }
 
-#shoppara2 {
-    margin-bottom: 7rem;
-}
 
 .grid-over {
     padding-left: 4rem;
@@ -350,6 +340,7 @@ footer {
     padding-bottom: 4rem;
     background-color: #ffffff;
     color: #000000;
+    text-align: center;
 }
 
 .grid-container {
