@@ -5,8 +5,8 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-html {
+ 
+ html {
     position: relative;
 min-height: 100%;
 max-width: 100%;
@@ -52,32 +52,49 @@ a {
 
 a:hover {
     color: #379683;
-}
+} 
 
 /*------ NAV --------- */
-
-nav {
-    background-color:#000000;
-    padding: 1.75em;
-    width: 100vw;
-    height: 12vh;
+nav{
+    padding:15px;
+    background: #000;
+    width: 100%;
+    position: fixed;
+    top:0px;
 }
-
+.bars{
+    color:#fff;
+    display: none;
+}
 .nav a {
     font-family: 'Source Sans Pro', 'Bookman', 'Helvetica', sans-serif;
-    text-align: center;
     padding: 1.75em 1em;
     text-decoration: none;
     font-size: 1.3em;
     color: #f9f9f9;
+    transition: 0.5s;
   }
-
+.close-btn{
+    font-size: 2rem;
+    font-weight: bolder;
+    background: none;
+    color:#fff;
+    border:none;
+    cursor: pointer;
+    display: none;
+}
 .nav a:hover {
     color: #5cdb95;
   }
 
 .nav_items {
     float: right;
+    transition: 0.5s;
+    
+}
+.sidenav_items{
+    transition: 0.5s;
+    display: none;
 }
 
 .downnav {
@@ -87,14 +104,6 @@ nav {
 .downnav:hover {
     text-decoration: underline;
   }
-
-.eye_logo {
-    float: left;
-    height: 4rem;
-    width: auto;
-    padding: 1rem 0em 0em 2rem;
-}
-
 
 /*------ HOMEPAGE --------- */
 
@@ -235,12 +244,12 @@ a.dldicon_black:hover {
     height: 110%;
 }
 
-@media all and (max-width:30em){
+/* @media all and (max-width:30em){
 a.dldicon {
         display: block;
         margin:0.4em auto;
         }
-}
+} */
 
 /*----- FOOTER --------- */
 
@@ -535,4 +544,45 @@ footer {
     margin-top: 1rem;
     padding: 0.7rem;
     max-width: 48vw;
+}
+
+@media(max-width:800px){
+    /* -----NAV BAR----- */
+    .bars{
+        display: inline-block;
+        float: left;
+        cursor: pointer;
+    }
+    .nav{
+        text-align: center;
+    }
+    .nav_items{
+        display: none;
+    }
+    .sidenav_items{
+        display: block;
+        position: fixed;
+        top:0;
+        left: 0;
+        height: 100%;
+        float: left;
+        background: #000;
+        width: 100%;
+        overflow-x: hidden;
+      
+    }
+    .sidenav_items a{
+        display: block;
+        color:#fff;
+        padding:20px 10px;
+        font-size: 2rem;
+        
+    }
+    .close-btn{
+        display: block;
+        position: absolute;
+        top:0;
+        right: 20px;
+        font-size: 50px;
+    }
 }

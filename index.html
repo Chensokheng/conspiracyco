@@ -1,111 +1,132 @@
 <!DOCTYPE html>
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-
 <html lang="en">
 
 <head>
-    <meta charset="utf-8" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Conspiracy Co</title>
 
     <!--LINKING CSS FILE-->
-    <link href='stylesheet.css' type='text/css' rel='stylesheet' />
-
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="icon" href="./images/conspiracy_co_eye.png">
     <!---Typography Link-->
     <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:400,700|Source+Sans+Pro" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+
 </head>
 
-<nav>
-        <ul class="nav">
-            <div class="nav_items">
-                <a href="icons.html">icons</a>
-                <a href="shop.html">products</a>
-                <a href="about.html">about</a>
-                <a href="icons.zip" download="conspiracy_co_icons.zip"><span class="downnav">download</span></a>
-            </div>
-            </ul>   
+<nav class="nav">
+    <a href="index.html" class="logo"><i class="fas fa-eye fa-2x"></i></a>
+    <span class="bars"><i class="fas fa-bars fa-2x"></i></span>
+
+    <div class="nav_items">
+        <a href="icons.html">icons</a>
+        <a href="shop.html">products</a>
+        <a href="about.html">about</a>
+        <a href="icons.zip" download="conspiracy_co_icons.zip"><span class="downnav">download</span></a>
+    </div>
+    <div class="sidenav_items">
+        <button class="close-btn">&times;</button>
+        <a href="icons.html">icons</a>
+        <a href="shop.html">products</a>
+        <a href="about.html">about</a>
+        <a href="icons.zip" download="conspiracy_co_icons.zip"><span class="downnav">download</span></a>
+    </div>
+
 </nav>
 
 <body>
-<section class="blacklandingpage">
-    <img src="images/con_co_brand_invert.png" id="herologo" alt="conspiracy co logo">
-</section>
-
-
-<section id="intro">
-        <div class="homecontent">
-    <h1 class="h1pad">Hello, tin foil hat owner!</h1>
-    <div id="intro2">
-    <p>Welcome to the land of the free icons. Conspiracy Co are dedicated to exposing capitalism - through providing free Conspiracy Theory inspired icons for you. See them all <a href="icons.html">here.</a> However, even Ct'ers gotta eat so buy our <a href="shop.html">products!</a></p>
-</div>
-</div>
-</section>
-</section>
-
-<section class="blacklandingpage" id="iconcontain">
-        <div class="homecontent">
-    <h1 class="h1pad_home">No Capitalism, Sheeple</h1>
-
-    <div class="flex-container">
-    <div class="flex-item"><img src="images/svg/Artboard 7.svg" alt="icon of JFK"></div>
-           <div class="flex-item"><img src="images/svg/ufo.svg" alt="icon of a ufo ship with lines coming from bottom"></div>
-            <div class="flex-item"><img src="images/svg/bigpharma.svg" alt="icon of a pill representing big pharma"></div>
-        </div>
-
-   <a href="icons.zip" download="conspiracy_co_icons.zip" class="dldicon">Free Download</a>
-</div>
-</section>
-
-<section id="featured">
-        <div class="homecontent">
-        <h1 class="h1pad">Featured Products</h1>
-
-        <section class="grid-container-home">
-
-                <div class="grid-item-h">
-                        <div class="overlay">
-                            <div class="overtext_home">
-                                <p>Shakespeare Sticker</p>
-                                <a href="https://www.redbubble.com/people/taramcallister/works/36139270-william-shakespeare-illustration-icon?asc=u&p=sticker&rel=carousel" target="_blank"><button class="buybtn">Buy Now</button></a>
-                            </div>
-                            <img src="images/shop/shakespeare_sticker.png" alt="sticker showing icon of Shakespeare" class="featprod_home"> 
-                        </div>
-        </div>   
-
-        <div class="grid-item-h">
-                <div class="overlay">
-                    <div class="overtext_home">
-                        <p>Lochness Monster T-shirt</p>
-                        <a href="https://www.redbubble.com/people/taramcallister/works/36139660-lochness-monster-icon-illustration?asc=u&p=t-shirt" target="_blank"><button class="buybtn">Buy Now</button></a>
-                    </div>
-                    <img src="images/shop/lochness_crop.png" alt="tshirt showing icon of the lochness monster" class="featprod_home"> 
-                </div>
-</div>   
-
-<div class="grid-item-h">
-        <div class="overlay">
-            <div class="overtext_home">
-                <p>Moon Landing Sticker</p>
-                <a href="https://www.redbubble.com/people/taramcallister/works/36139077-moon-landing-faked?asc=u&p=t-shirt&rel=carousel&style=mens" target="_blank"><button class="buybtn">Buy Now</button></a>
-            </div>
-            <img src="images/shop/moonlanding_sticker.png" alt="sticker of the moon with the american flag on it" class="featprod_home"> 
-        </div>
-</div>   
-        </section>
-
-    <section class="seemorebtn">
-    
-        <a href="shop.html" class="dldicon_black">See More</a>
+    <section class="blacklandingpage">
+        <img src="images/con_co_brand_invert.png" id="herologo" alt="conspiracy co logo">
     </section>
 
-    </div> 
-    </section>  
 
+    <section id="intro">
+        <div class="homecontent">
+            <h1 class="h1pad">Hello, tin foil hat owner!</h1>
+            <div id="intro2">
+                <p>Welcome to the land of the free icons. Conspiracy Co are dedicated to exposing capitalism - through
+                    providing free Conspiracy Theory inspired icons for you. See them all <a href="icons.html">here.</a>
+                    However, even Ct'ers gotta eat so buy our <a href="shop.html">products!</a></p>
+            </div>
+        </div>
+    </section>
+    </section>
+
+    <section class="blacklandingpage" id="iconcontain">
+        <div class="homecontent">
+            <h1 class="h1pad_home">No Capitalism, Sheeple</h1>
+
+            <div class="flex-container">
+                <div class="flex-item"><img src="images/svg/Artboard 7.svg" alt="icon of JFK"></div>
+                <div class="flex-item"><img src="images/svg/ufo.svg"
+                        alt="icon of a ufo ship with lines coming from bottom"></div>
+                <div class="flex-item"><img src="images/svg/bigpharma.svg" alt="icon of a pill representing big pharma">
+                </div>
+            </div>
+
+            <a href="icons.zip" download="conspiracy_co_icons.zip" class="dldicon">Free Download</a>
+        </div>
+    </section>
+
+    <section id="featured">
+        <div class="homecontent">
+            <h1 class="h1pad">Featured Products</h1>
+
+            <section class="grid-container-home">
+
+                <div class="grid-item-h">
+                    <div class="overlay">
+                        <div class="overtext_home">
+                            <p>Shakespeare Sticker</p>
+                            <a href="https://www.redbubble.com/people/taramcallister/works/36139270-william-shakespeare-illustration-icon?asc=u&p=sticker&rel=carousel"
+                                target="_blank"><button class="buybtn">Buy Now</button></a>
+                        </div>
+                        <img src="images/shop/shakespeare_sticker.png" alt="sticker showing icon of Shakespeare"
+                            class="featprod_home">
+                    </div>
+                </div>
+
+                <div class="grid-item-h">
+                    <div class="overlay">
+                        <div class="overtext_home">
+                            <p>Lochness Monster T-shirt</p>
+                            <a href="https://www.redbubble.com/people/taramcallister/works/36139660-lochness-monster-icon-illustration?asc=u&p=t-shirt"
+                                target="_blank"><button class="buybtn">Buy Now</button></a>
+                        </div>
+                        <img src="images/shop/lochness_crop.png" alt="tshirt showing icon of the lochness monster"
+                            class="featprod_home">
+                    </div>
+                </div>
+
+                <div class="grid-item-h">
+                    <div class="overlay">
+                        <div class="overtext_home">
+                            <p>Moon Landing Sticker</p>
+                            <a href="https://www.redbubble.com/people/taramcallister/works/36139077-moon-landing-faked?asc=u&p=t-shirt&rel=carousel&style=mens"
+                                target="_blank"><button class="buybtn">Buy Now</button></a>
+                        </div>
+                        <img src="images/shop/moonlanding_sticker.png"
+                            alt="sticker of the moon with the american flag on it" class="featprod_home">
+                    </div>
+                </div>
+            </section>
+
+            <section class="seemorebtn">
+
+                <a href="shop.html" class="dldicon_black">See More</a>
+            </section>
+
+        </div>
+    </section>
+
+    <footer>
+        <small>Design & Code by Tara McAllister © 2018</small>
+    </footer>
+    <script src="index.js"></script>
 </body>
 
-<footer>
-
-<small>Design & Code by Tara McAllister © 2018</small>
-
-</footer>
+</html>
