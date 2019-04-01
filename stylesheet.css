@@ -329,6 +329,10 @@ footer {
 #shoptitle{
     font-size: 45px;
 }
+.aboutcontent{
+    text-align: center;
+    text-align: justify;
+}
 
 
 
@@ -535,5 +539,8 @@ footer {
         top:0;
         right: 20px;
         font-size: 50px;
+    }
+    .right-half{
+        width: 100%;
     }
 }
