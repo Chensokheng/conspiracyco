@@ -1,50 +1,71 @@
 <!DOCTYPE html>
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-
 <html lang="en">
 
 <head>
-    <meta charset="utf-8" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Conspiracy Co</title>
 
     <!--LINKING CSS FILE-->
-    <link href='stylesheet.css' type='text/css' rel='stylesheet' />
-
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="icon" href="./images/conspiracy_co_eye.png">
     <!---Typography Link-->
     <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:400,700|Source+Sans+Pro" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
 
 <body>
 
-        <a href="index.html"><img src="images/conspiracy_co_eye.png" class="eye_logo"></a>
-           
-        <nav>
-                <ul class="nav">
-                    <div class="nav_items">
-                        <a href="icons.html">icons</a>
-                        <a href="shop.html">products</a>
-                        <a href="about.html">about</a>
-                        <a href="icons.zip" download="conspiracy_co_icons.zip"><span class="downnav">download</span></a>
-                    </div>
-                    </ul>   
-        </nav>
 
+    <nav class="nav">
+        <a href="index.html" class="logo"><i class="fas fa-eye fa-2x"></i></a>
+        <span class="bars"><i class="fas fa-bars fa-2x"></i></span>
 
-        <section class="container_con">
-                <div class="left-half">
+        <div class="nav_items">
+            <a href="icons.html">icons</a>
+            <a href="shop.html">products</a>
+            <a href="about.html">about</a>
+            <a href="icons.zip" download="conspiracy_co_icons.zip"><span class="downnav">download</span></a>
+        </div>
+        <div class="sidenav_items">
+            <button class="close-btn">&times;</button>
+            <a href="icons.html">icons</a>
+            <a href="shop.html">products</a>
+            <a href="about.html">about</a>
+            <a href="icons.zip" download="conspiracy_co_icons.zip"><span class="downnav">download</span></a>
+        </div>
 
-                    <img src="images/png/bigpharma.png" class="con_img">
+    </nav>
 
-                </div>
-                <div class="right-half">
-<section class="conspiracy_info">
-                    <h1 id="conspiracy_title">Big Pharma</h1>
-                    <p id="conspiracy_para">Big Pharma conspiracy theories claim that the medical establishment in general and pharmaceutical companies in particular, especially the large ones, operate for sinister purposes and against the public good. This may be by pushing fake information about natural, cheaper remedies, hiding medical discoveries as they would lose money and creating diseases.</p>
-                    <p id="conspiracy_para">The most commonly believed example of a disease being 'created' or 'transferred' to humans is HIV/AIDS. It is believed that HIV was transferred illegally from monkeys to humans with a purpose to make humans ill, and hence reliant on medicine.</p>
-                    <p id="conspiracy_para">Many also believe that the cure for cancer has been discovered and is being deliberately hidden from the public. In 2007 cancer treatments made a profit of $35 billion - this has tripled since then. It is easy to see why the money hungry would not want to let go of these profits.</p>
-                    <p id="conspiracy_para">Do you believe?</p>
-                </section>
-                </div>
-              </secion>
+    <section class="container_con">
+        <div class="left-half">
+
+            <img src="images/png/bigpharma.png" class="con_img">
+
+        </div>
+        <div class="right-half">
+            <section class="conspiracy_info">
+                <h1 id="conspiracy_title">Big Pharma</h1>
+                <p id="conspiracy_para">Big Pharma conspiracy theories claim that the medical establishment in general
+                    and pharmaceutical companies in particular, especially the large ones, operate for sinister purposes
+                    and against the public good. This may be by pushing fake information about natural, cheaper
+                    remedies, hiding medical discoveries as they would lose money and creating diseases.</p>
+                <p id="conspiracy_para">The most commonly believed example of a disease being 'created' or 'transferred'
+                    to humans is HIV/AIDS. It is believed that HIV was transferred illegally from monkeys to humans with
+                    a purpose to make humans ill, and hence reliant on medicine.</p>
+                <p id="conspiracy_para">Many also believe that the cure for cancer has been discovered and is being
+                    deliberately hidden from the public. In 2007 cancer treatments made a profit of $35 billion - this
+                    has tripled since then. It is easy to see why the money hungry would not want to let go of these
+                    profits.</p>
+                <p id="conspiracy_para">Do you believe?</p>
+            </section>
+        </div>
+        </secion>
+    </section>
+    <script src="index.js"></script>
+</body>
+
+</html>

@@ -1,50 +1,76 @@
 <!DOCTYPE html>
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
 
 <html lang="en">
 
 <head>
-    <meta charset="utf-8" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Conspiracy Co</title>
 
     <!--LINKING CSS FILE-->
-    <link href='stylesheet.css' type='text/css' rel='stylesheet' />
-
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="icon" href="./images/conspiracy_co_eye.png">
     <!---Typography Link-->
     <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:400,700|Source+Sans+Pro" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
 </head>
 
 <body>
 
-        <a href="index.html"><img src="images/conspiracy_co_eye.png" class="eye_logo"></a>
-           
-        <nav>
-                <ul class="nav">
-                    <div class="nav_items">
-                        <a href="icons.html">icons</a>
-                        <a href="shop.html">products</a>
-                        <a href="about.html">about</a>
-                        <a href="icons.zip" download="conspiracy_co_icons.zip"><span class="downnav">download</span></a>
-                    </div>
-                    </ul>   
-        </nav>
+    <nav class="nav">
+        <a href="index.html" class="logo"><i class="fas fa-eye fa-2x"></i></a>
+        <span class="bars"><i class="fas fa-bars fa-2x"></i></span>
+
+        <div class="nav_items">
+            <a href="icons.html">icons</a>
+            <a href="shop.html">products</a>
+            <a href="about.html">about</a>
+            <a href="icons.zip" download="conspiracy_co_icons.zip"><span class="downnav">download</span></a>
+        </div>
+        <div class="sidenav_items">
+            <button class="close-btn">&times;</button>
+            <a href="icons.html">icons</a>
+            <a href="shop.html">products</a>
+            <a href="about.html">about</a>
+            <a href="icons.zip" download="conspiracy_co_icons.zip"><span class="downnav">download</span></a>
+        </div>
+
+    </nav>
 
 
-        <section class="container_con">
-                <div class="left-half">
+    <section class="container_con">
+        <div class="left-half">
 
-                    <img src="images/png/ufo.png" class="con_img">
+            <img src="images/png/ufo.png" class="con_img">
 
-                </div>
-                <div class="right-half">
-<section class="conspiracy_info">
-                    <h1 id="conspiracy_title">UFOs</h1>
-                    <p id="conspiracy_para">UFO sightings have been recorded all through history. From Ancient Egypt to 16th Century Switzerland to 19th Century Japan until the phenomena exploded in the 20th Century, with most sightings being reported in the US.</p>
-                    <p id="conspiracy_para">The American government has been at the forefront of this theory. They have spent millions researching UFOs themselves. The late 20th Century saw the American public fascinated with UFOs, leading to many saying that the reported UFO sightings were the result of creative imaginations. Reports exploded after a key event - Roswell.</p>
-                    <p id="conspiracy_para">Roswell: In the summer of 1947, a rancher discovered unidentifiable debris in his sheep pasture outside Roswell, New Mexico. Many believed it was the remains of an extraterrestrial flying saucer as there were "unearthly" objects within the wreckage. The debris was gathered by the American military. Later they issued a press release saying they had a UFO in their possession. The next day another press release was issued stating it was a weather balloon - something the wreckage certainly didn't resemble. Suspicious?</p>
-                    <p id="conspiracy_para">Do you believe?</p>
-                </section>
-                </div>
-              </secion>
+        </div>
+        <div class="right-half">
+            <section class="conspiracy_info">
+                <h1 id="conspiracy_title">UFOs</h1>
+                <p id="conspiracy_para">UFO sightings have been recorded all through history. From Ancient Egypt to 16th
+                    Century Switzerland to 19th Century Japan until the phenomena exploded in the 20th Century, with
+                    most sightings being reported in the US.</p>
+                <p id="conspiracy_para">The American government has been at the forefront of this theory. They have
+                    spent millions researching UFOs themselves. The late 20th Century saw the American public fascinated
+                    with UFOs, leading to many saying that the reported UFO sightings were the result of creative
+                    imaginations. Reports exploded after a key event - Roswell.</p>
+                <p id="conspiracy_para">Roswell: In the summer of 1947, a rancher discovered unidentifiable debris in
+                    his sheep pasture outside Roswell, New Mexico. Many believed it was the remains of an
+                    extraterrestrial flying saucer as there were "unearthly" objects within the wreckage. The debris was
+                    gathered by the American military. Later they issued a press release saying they had a UFO in their
+                    possession. The next day another press release was issued stating it was a weather balloon -
+                    something the wreckage certainly didn't resemble. Suspicious?</p>
+                <p id="conspiracy_para">Do you believe?</p>
+            </section>
+        </div>
+        </secion>
+    </section>
+    <script src="index.js"></script>
+</body>
+
+</html>
