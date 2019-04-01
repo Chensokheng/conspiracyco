@@ -110,6 +110,7 @@ nav{
 .blacklandingpage{
     background: #000;
     text-align: center;
+ 
 }
 
 /* -----Intro----- */
@@ -164,13 +165,6 @@ nav{
   .h1pad{
       font-size: 50px;
   }
-
-  
-
-
-
-
-  
 a.dldicon:hover {
         color:#000000;
         background-color:#F9f9f9;
@@ -211,24 +205,26 @@ a.dldicon_black:hover {
     height: 110%;
 }
 
-/* @media all and (max-width:30em){
-a.dldicon {
-        display: block;
-        margin:0.4em auto;
-        }
-} */
 
 /*----- FOOTER --------- */
 footer {
-   background: #000;
+    background: #000;
     color: #fff;
     text-align: center;
+    padding:10px;
 }
+.text-footer{
+    font-size: 16px;
+}
+/* ---END OF FOOTER */
 
 .white {
     background-color: #f9f9f9;
     color: #000000;
 }
+
+
+
 
 /*------ ICONS MAIN PAGE --------- */
 
